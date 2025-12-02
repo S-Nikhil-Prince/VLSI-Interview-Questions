@@ -3,6 +3,10 @@
 # Feature: Added function for data processing
 def process_data(input_data):
       return input_data
+
+# Commit 2: Add validation function
+def validate_input(data):
+          return len(data) > 0
 # Practice commit 1
 # Practice commit 2
 # Practice commit 3

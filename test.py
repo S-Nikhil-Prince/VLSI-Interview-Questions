@@ -1,5 +1,8 @@
 
 # Practice commit 46hii
+# Feature: Added function for data processing
+def process_data(input_data):
+      return input_data
 # Practice commit 1
 # Practice commit 2
 # Practice commit 3

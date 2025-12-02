@@ -7,6 +7,13 @@ def process_data(input_data):
 # Commit 2: Add validation function
 def validate_input(data):
           return len(data) > 0
+
+# Commit 3: Add error handling
+def safe_process(data):
+          try:
+                        return process_data(data)
+                    except Exception as e:
+                                  return None
 # Practice commit 1
 # Practice commit 2
 # Practice commit 3

@@ -14,6 +14,10 @@ def safe_process(data):
                         return process_data(data)
                     except Exception as e:
                                   return None
+
+# Commit 4: Add logging utility
+import logging
+logger = logging.getLogger(__name__)
 # Practice commit 1
 # Practice commit 2
 # Practice commit 3

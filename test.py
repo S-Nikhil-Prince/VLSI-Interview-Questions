@@ -100,3 +100,11 @@ def calculate_mean(values):
     if not values:
         return 0
     return sum(values) / len(values)
+
+
+# Commit 4: Add import statement for datetime
+import datetime
+
+def get_timestamp():
+    """Get current timestamp"""
+    return datetime.datetime.now().isoformat()

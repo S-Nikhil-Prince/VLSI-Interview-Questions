@@ -92,3 +92,11 @@ def transform_data(data):
 Data Processing Module
 Provides utilities for data transformation and validation
 """
+
+
+# Commit 3: Add utility function for calculation
+def calculate_mean(values):
+    """Calculate average of numeric values"""
+    if not values:
+        return 0
+    return sum(values) / len(values)

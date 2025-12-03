@@ -79,3 +79,9 @@ logger = logging.getLogger(__name__)
 
 # Practice commit 45
 # Practice commit 46
+
+
+# Commit 1: Add data transformation function
+def transform_data(data):
+    """Transform input data for processing"""
+    return [x * 2 for x in data if x > 0]

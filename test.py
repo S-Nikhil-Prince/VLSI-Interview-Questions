@@ -115,3 +115,15 @@ MAX_SIZE = 1000
 MIN_SIZE = 1
 DEFAULT_TIMEOUT = 30
 VERSION = '1.0.0'
+
+
+# Commit 6: Add test functions
+def test_transform_data():
+    """Test data transformation"""
+    result = transform_data([1, 2, 3])
+    assert result == [2, 4, 6]
+
+def test_calculate_mean():
+    """Test mean calculation"""
+    result = calculate_mean([1, 2, 3, 4, 5])
+    assert result == 3.0

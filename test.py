@@ -127,3 +127,15 @@ def test_calculate_mean():
     """Test mean calculation"""
     result = calculate_mean([1, 2, 3, 4, 5])
     assert result == 3.0
+
+
+# Commit 7: Refactor code for better structure
+def process_batch(data_list, processor_func):
+    """Process batch of data with custom processor"""
+    results = []
+    for item in data_list:
+        try:
+            results.append(processor_func(item))
+        except Exception as e:
+            logger.error(f'Error processing item: {e}')
+    return results

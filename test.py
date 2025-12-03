@@ -108,3 +108,10 @@ import datetime
 def get_timestamp():
     """Get current timestamp"""
     return datetime.datetime.now().isoformat()
+
+
+# Commit 5: Add configuration constants
+MAX_SIZE = 1000
+MIN_SIZE = 1
+DEFAULT_TIMEOUT = 30
+VERSION = '1.0.0'

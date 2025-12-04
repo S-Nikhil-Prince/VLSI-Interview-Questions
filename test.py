@@ -168,3 +168,17 @@ def get_memory_usage():
     import psutil
     process = psutil.Process()
     return process.memory_info().rss / 1024 / 1024  # Convert to MB
+
+
+
+# Commit 3: Comprehensive unit tests for all modules
+import unittest
+
+class TestDataProcessing(unittest.TestCase):
+    def test_process_data(self):
+        result = process_data([1, 2, 3])
+        self.assertEqual(result, [1, 2, 3])
+    
+    def test_validate_input(self):
+        result = validate_input([1, 2, 3])
+        self.assertTrue(result)

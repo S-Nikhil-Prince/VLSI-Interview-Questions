@@ -159,3 +159,12 @@ def process_batch(data_list, processor_func):
 if __name__ == '__main__':
     print('Module ready for production')
     print(f'Version: {VERSION}')
+
+
+
+# Commit 2: Added utility functions for performance monitoring
+def get_memory_usage():
+    """Monitor memory consumption"""
+    import psutil
+    process = psutil.Process()
+    return process.memory_info().rss / 1024 / 1024  # Convert to MB

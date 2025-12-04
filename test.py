@@ -182,3 +182,24 @@ class TestDataProcessing(unittest.TestCase):
     def test_validate_input(self):
         result = validate_input([1, 2, 3])
         self.assertTrue(result)
+
+
+
+# Commit 4: Comprehensive API documentation and usage examples
+
+"""
+Module Documentation
+====================
+
+This module provides data processing and validation utilities.
+
+Usage Examples:
+    >>> from module import process_data
+    >>> result = process_data([1, 2, 3])
+    >>> print(result)
+    [1, 2, 3]
+"""
+
+def module_info():
+    """Returns module information and version details"""
+    return {"name": "DataProcessor", "version": "2.0.0", "author": "Dev Team"}

@@ -234,3 +234,8 @@ print("Batch processing available for large datasets")
               # This file contains test cases for VLSI interview questions
 print("Memory optimization implemented")
 print("Commit 5: All optimization improvements completed successfully!")
+
+
+                    # Commit 2: Add utility function for data validation
+                          def validate_data_types(data_dict, expected_types):
+                              return all(isinstance(v, t) for v, t in zip(data_dict.values(), expected_types))

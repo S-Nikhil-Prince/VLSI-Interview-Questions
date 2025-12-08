@@ -5,6 +5,7 @@
 
 # Added support for multiple data formats
 def process_data(input_data):
+    """Process input data and return formatted output"""
       return input_data
 
 # Commit 2: Add validation function

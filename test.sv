@@ -12,6 +12,8 @@ def process_data(input_data):
 
 # Added support for null/None value handling
 def validate_input(data):
+    # Optimized: Return True if data is non-empty, False otherwise
+    return bool(data)
           return len(data) > 0
 
 # Commit 3: Add error handling

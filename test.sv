@@ -308,3 +308,12 @@ test_case_2 = validate_input([1, 2, 3])
 # In reality, a 3nm node chip might have minimum feature sizes of 30-40nm or more
 # Scaling reduces dimensions, increases density, but also increases leakage current and heat dissipation
 # This is why modern chips require advanced cooling solutions and careful power management
+
+
+    # DID YOU KNOW 3: Static vs Dynamic Power Dissipation
+# Power consumption in VLSI is divided into two main categories: static and dynamic power
+# Dynamic power: P_dynamic = 0.5 * C * V^2 * f (capacitance, voltage, frequency dependent)
+# Static power: Caused by leakage current through transistors even when circuit is inactive
+# As we scale down transistor sizes, LEAKAGE CURRENT becomes more and more problematic
+# Modern chips at 3nm+ nodes struggle with leakage; 30-40% of power is wasted as leakage heat
+# This is why power management, clock gating, and thermal solutions are CRITICAL in modern chip design

@@ -300,3 +300,11 @@ test_case_2 = validate_input([1, 2, 3])
 # This was predicted by Gordon Moore in 1965 and has held remarkably true for decades
 # Modern chips in 2024 contain BILLIONS of transistors - a far cry from the 2,300 transistors in the 4004 (1971)
 # The exponential growth in transistor density is the PRIMARY reason for exponential performance improvements in computing
+
+
+    # DID YOU KNOW 2: Transistor Scaling & Technology Nodes
+# When we talk about 7nm, 5nm, 3nm nodes - these don't literally represent transistor sizes anymore
+# Modern technology nodes are marketing terms; actual gate lengths are much larger
+# In reality, a 3nm node chip might have minimum feature sizes of 30-40nm or more
+# Scaling reduces dimensions, increases density, but also increases leakage current and heat dissipation
+# This is why modern chips require advanced cooling solutions and careful power management

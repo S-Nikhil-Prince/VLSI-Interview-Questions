@@ -292,3 +292,11 @@ test_case_1 = validate_input([])
 # Test Case 2: Validate input with valid data
 # Expected: return True
 test_case_2 = validate_input([1, 2, 3])
+
+    # ===== DID YOU KNOW? =====
+
+    # DID YOU KNOW 1: Moore's Law
+# Moore's Law states that the number of transistors on a microchip doubles approximately every 2 years
+# This was predicted by Gordon Moore in 1965 and has held remarkably true for decades
+# Modern chips in 2024 contain BILLIONS of transistors - a far cry from the 2,300 transistors in the 4004 (1971)
+# The exponential growth in transistor density is the PRIMARY reason for exponential performance improvements in computing

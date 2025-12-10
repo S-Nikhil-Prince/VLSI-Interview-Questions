@@ -317,3 +317,12 @@ test_case_2 = validate_input([1, 2, 3])
 # As we scale down transistor sizes, LEAKAGE CURRENT becomes more and more problematic
 # Modern chips at 3nm+ nodes struggle with leakage; 30-40% of power is wasted as leakage heat
 # This is why power management, clock gating, and thermal solutions are CRITICAL in modern chip design
+
+
+    # DID YOU KNOW 4: Timing Closure - The Most Critical Phase in Physical Design
+# Timing closure is one of the HARDEST problems in modern chip design - it determines if a chip works at target speed
+# Setup time violation: When data doesn't arrive early enough before the clock edge (combinational logic too slow)
+# Hold time violation: When data changes TOO SOON after clock edge (breaks flip-flop stability)
+# Meeting timing requires careful placement, routing, buffer insertion, and clock tree synthesis (CTS)
+# Modern designs at high frequencies (GHz+) must account for: wire delays, on-die variations, temperature effects
+# Late-stage timing violations can force entire chip redesigns - this is why timing-driven design is ESSENTIAL from day 1

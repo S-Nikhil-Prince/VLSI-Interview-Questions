@@ -2,6 +2,7 @@
 // Commit 2: Interview preparation tips and best practices
 // Commit 3: Practice goals and code optimization techniques
 // Commit 4: VLSI fundamentals and circuit design principles
+// Commit 5: Timing analysis and synchronous design patterns
 
 # SystemVerilog Test Module - Interview Practice
 # Practice commit 46hii

@@ -1,5 +1,6 @@
 // Commit 1: Introduction to SystemVerilog and Verilog fundamentals
 // Commit 2: Interview preparation tips and best practices
+// Commit 3: Practice goals and code optimization techniques
 
 # SystemVerilog Test Module - Interview Practice
 # Practice commit 46hii

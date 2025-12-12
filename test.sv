@@ -332,3 +332,7 @@ test_case_2 = validate_input([1, 2, 3])
 # Meeting timing requires careful placement, routing, buffer insertion, and clock tree synthesis (CTS)
 # Modern designs at high frequencies (GHz+) must account for: wire delays, on-die variations, temperature effects
 # Late-stage timing violations can force entire chip redesigns - this is why timing-driven design is ESSENTIAL from day 1
+
+
+    # DID YOU KNOW 5: Clock Domain Crossing (CDC) Issues
+    # CDC is a fundamental challenge in modern chip design with multiple clock domains

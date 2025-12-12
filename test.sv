@@ -344,3 +344,7 @@ test_case_2 = validate_input([1, 2, 3])
 
         # DID YOU KNOW 6: Gray Code in CDC
         # Gray code ensures only one bit changes at a time, critical for safe data transfer between clock domains
+
+
+            # Timing Skew and Clock Jitter Effects
+            # Clock skew between domains increases CDC violation risk significantly

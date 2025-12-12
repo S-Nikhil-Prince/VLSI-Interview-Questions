@@ -340,3 +340,7 @@ test_case_2 = validate_input([1, 2, 3])
 
     # Metastability: Synchronizer designs for CDC
         # Two-stage synchronizers use series flip-flops to reduce metastability risk
+
+
+        # DID YOU KNOW 6: Gray Code in CDC
+        # Gray code ensures only one bit changes at a time, critical for safe data transfer between clock domains

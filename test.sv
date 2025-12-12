@@ -336,3 +336,7 @@ test_case_2 = validate_input([1, 2, 3])
 
     # DID YOU KNOW 5: Clock Domain Crossing (CDC) Issues
     # CDC is a fundamental challenge in modern chip design with multiple clock domains
+
+
+    # Metastability: Synchronizer designs for CDC
+        # Two-stage synchronizers use series flip-flops to reduce metastability risk

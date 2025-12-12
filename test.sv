@@ -348,3 +348,7 @@ test_case_2 = validate_input([1, 2, 3])
 
             # Timing Skew and Clock Jitter Effects
             # Clock skew between domains increases CDC violation risk significantly
+
+
+            # Handshake Protocol for CDC
+                # Handshake is essential for reliable data transfer across clock domain boundaries

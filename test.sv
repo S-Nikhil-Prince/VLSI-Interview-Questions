@@ -352,3 +352,13 @@ test_case_2 = validate_input([1, 2, 3])
 
             # Handshake Protocol for CDC
                 # Handshake is essential for reliable data transfer across clock domain boundaries
+
+
+// Commit 1: Introduction to SystemVerilog and Verilog fundamentals
+// Module implementation with basic port declarations
+module system_verilog_test(
+  input clk,
+  input rst_n,
+  input [7:0] data_in,
+  output reg [7:0] data_out
+);

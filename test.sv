@@ -371,3 +371,12 @@ always @(posedge clk) begin
   else if (data_in != 8'hXX)
     data_out <= data_in;
 end
+
+// Commit 3: Practice goals and code optimization techniques
+// Output formatting and data pipelining
+wire [15:0] output_formatted;
+assign output_formatted = {data_out, 8'b0};
+
+// Optimization: Early exit on error
+wire error_detected = (data_in == 8'hFF);
+always @(*) if (error_detected) $display("Error in data");

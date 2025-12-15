@@ -380,3 +380,15 @@ assign output_formatted = {data_out, 8'b0};
 // Optimization: Early exit on error
 wire error_detected = (data_in == 8'hFF);
 always @(*) if (error_detected) $display("Error in data");
+
+// Commit 4: VLSI fundamentals and circuit design principles
+// Register definition and state machine implementation
+reg [7:0] state, next_state;
+parameter IDLE = 3'b000, PROCESS = 3'b001, DONE = 3'b010;
+
+always @(posedge clk or negedge rst_n) begin
+  if (!rst_n)
+    state <= IDLE;
+  else
+    state <= next_state;
+end

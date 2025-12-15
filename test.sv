@@ -362,3 +362,12 @@ module system_verilog_test(
   input [7:0] data_in,
   output reg [7:0] data_out
 );
+
+// Commit 2: Interview preparation tips and best practices
+// Input processing and data validation logic
+always @(posedge clk) begin
+  if (!rst_n)
+    data_out <= 8'h00;
+  else if (data_in != 8'hXX)
+    data_out <= data_in;
+end

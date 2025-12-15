@@ -392,3 +392,14 @@ always @(posedge clk or negedge rst_n) begin
   else
     state <= next_state;
 end
+
+// Commit 5: Timing analysis and synchronous design patterns
+// Clock domain crossing and synchronization logic
+reg [1:0] sync_chain;
+wire clk_synchronized;
+
+always @(posedge clk) begin
+  sync_chain <= {sync_chain[0], clk};
+end
+
+assign clk_synchronized = sync_chain[1];
